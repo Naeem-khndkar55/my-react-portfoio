@@ -66,6 +66,12 @@ const Services = () => {
                     I Know CLI and Git & Github.
                   </p>
                 </li>
+                <li className="services__model-service">
+                  <i className="uil uil-check-circle services__model-icon"></i>
+                  <p className="services__model-info">
+                    I Know Docker and Deployment.
+                  </p>
+                </li>
               </ul>
             </div>
           </div>
@@ -160,6 +166,18 @@ const Services = () => {
                   <i className="uil uil-check-circle services__model-icon"></i>
                   <p className="services__model-info">
                     Former Logistics Secretery of CoU IT Society
+                  </p>
+                </li>
+                <li className="services__model-service">
+                  <i className="uil uil-check-circle services__model-icon"></i>
+                  <p className="services__model-info">
+                    Former Election Commissioner of CoU CSE Society Election
+                  </p>
+                </li>
+                <li className="services__model-service">
+                  <i className="uil uil-check-circle services__model-icon"></i>
+                  <p className="services__model-info">
+                    Former Techincal Team Lead of CoU IUPC Contest CoU
                   </p>
                 </li>
                 <li className="services__model-service">

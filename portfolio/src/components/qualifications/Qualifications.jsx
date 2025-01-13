@@ -1,25 +1,53 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Qualifications.css";
 
 const Qualifications = () => {
+  const [toggleState, setToggleState] = useState(1);
+  const toggleTab = (index) => {
+    setToggleState(index);
+  };
   return (
     <section className="qualifications section">
       <h2 className="section__title">Qualifications</h2>
       <span className="section__subtitle">My Journey</span>
       <div className="qualifications__container container">
         <div className="qualifications__tabs">
-          <div className="qualifications__button qualifications__active button--flex">
+          <div
+            className={
+              toggleState === 1
+                ? "qualifications__button qualifications__active button--flex"
+                : "qualifications__button button--flex"
+            }
+            onClick={() => {
+              toggleTab(1);
+            }}
+          >
             <i className="uil uil-graduation-cap qualifications__icon"></i>
             Education
           </div>
-          <div className="qualifications__button button--flex">
+          <div
+            className={
+              toggleState === 2
+                ? "qualifications__button qualifications__active button--flex"
+                : "qualifications__button button--flex"
+            }
+            onClick={() => {
+              toggleTab(2);
+            }}
+          >
             <i className="uil uil-briefcase-alt qualifications__icon"></i>
             Experience
           </div>
         </div>
 
         <div className="qualifications__sections">
-          <div className="qualifications__content qualifications__content-active">
+          <div
+            className={
+              toggleState === 1
+                ? "qualifications__content qualifications__content-active"
+                : "qualifications__content"
+            }
+          >
             <div className="qualifications__data">
               <div>
                 <h3 className="qualifications__title">Graduation</h3>
@@ -71,9 +99,9 @@ const Qualifications = () => {
                 <span className="qualifications__line"></span>
               </div>
               <div>
-                <h3 className="qualifications__title">Communucation</h3>
+                <h3 className="qualifications__title">Communication</h3>
                 <span className="qualifications__subtitle">
-                  Self, Multiple Club & Orgs
+                  Self,Clubs & Orgs
                 </span>
                 <div className="qualifications__calendar">
                   <i className="uil uil-calendar-alt"></i>2021-Present
@@ -82,7 +110,13 @@ const Qualifications = () => {
             </div>
           </div>
 
-          <div className="qualifications__content">
+          <div
+            className={
+              toggleState === 2
+                ? "qualifications__content qualifications__content-active"
+                : "qualifications__content"
+            }
+          >
             <div className="qualifications__data">
               <div>
                 <h3 className="qualifications__title">MERN Stack</h3>
@@ -116,7 +150,7 @@ const Qualifications = () => {
             </div>
             <div className="qualifications__data">
               <div>
-                <h3 className="qualifications__title">Mentor</h3>
+                <h3 className="qualifications__title">Instructor</h3>
                 <span className="qualifications__subtitle">CoderPals</span>
                 <div className="qualifications__calendar">
                   <i className="uil uil-calendar-alt"></i>2025-present
@@ -125,6 +159,22 @@ const Qualifications = () => {
               <div>
                 <span className="qualifications__rounder"></span>
                 <span className="qualifications__line"></span>
+              </div>
+            </div>
+            <div className="qualifications__data">
+              <div></div>
+              <div>
+                <span className="qualifications__rounder"></span>
+                <span className="qualifications__line"></span>
+              </div>
+              <div>
+                <h3 className="qualifications__title">Project Contribution</h3>
+                <span className="qualifications__subtitle">
+                  Seniors startup
+                </span>
+                <div className="qualifications__calendar">
+                  <i className="uil uil-calendar-alt">2024-Present</i>
+                </div>
               </div>
             </div>
           </div>
