@@ -16,6 +16,8 @@
 }
 .qualifications__button:hover{
     color: var(--title-color-dark);
+    
+  
 }
 .qualifications__icon{
     font-size: 1.8rem;
@@ -23,6 +25,8 @@
 }
 .qualifications__active{
     color: var(--title-color-dark);
+  
+
 }
 .qualifications__sections{
     display: grid;

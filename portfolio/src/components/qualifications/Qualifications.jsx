@@ -139,19 +139,21 @@ const Qualifications = () => {
                 <span className="qualifications__line"></span>
               </div>
               <div>
-                <h3 className="qualifications__title">Team Work</h3>
+                <h3 className="qualifications__title">Programming Contest</h3>
                 <span className="qualifications__subtitle">
-                  Clubing & Events management
+                  Online and Onsite contest perticipation
                 </span>
                 <div className="qualifications__calendar">
-                  <i className="uil uil-calendar-alt">2023-Present</i>
+                  <i className="uil uil-calendar-alt">2022-Present</i>
                 </div>
               </div>
             </div>
             <div className="qualifications__data">
               <div>
                 <h3 className="qualifications__title">Instructor</h3>
-                <span className="qualifications__subtitle">CoderPals</span>
+                <span className="qualifications__subtitle">
+                  CoderPals (python & HTML+CSS)
+                </span>
                 <div className="qualifications__calendar">
                   <i className="uil uil-calendar-alt"></i>2025-present
                 </div>
