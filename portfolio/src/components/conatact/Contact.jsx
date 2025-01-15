@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Contact.css";
 const Contact = () => {
   return (
     <section className="contact section" id="contact">
@@ -25,7 +25,7 @@ const Contact = () => {
             </div>
             <div className="contact__card">
               <i className="bx bxl-whatsapp contact__carrd-icon"></i>
-              <h3 className="contact__card-title">Whats app</h3>
+              <h3 className="contact__card-title">What's app</h3>
               <span className="contact__card-data">+8801550033858</span>
               <a
                 href="https://api/whatsapp.com/send?phone=+8801550033858&text=Hello!,i am Naeem. How can I help You"
@@ -58,7 +58,7 @@ const Contact = () => {
                 type="text"
                 name="name"
                 placeholder="Enter Your Name"
-                className="contact__name-input"
+                className="contact__form-input"
               />
             </div>
             <div className="contact__form-div">
@@ -67,17 +67,17 @@ const Contact = () => {
                 type="email"
                 name="email"
                 placeholder="Enter Your Email"
-                className="contact__name-input"
+                className="contact__form-input"
               />
             </div>
-            <div className="contact__form-div">
+            <div className="contact__form-div contact__form-area">
               <label className="contact__form-tag">Message</label>
               <textarea
                 name="message"
                 id=""
                 cols="30"
                 rows="10"
-                className="contact__name-input"
+                className="contact__form-input"
                 placeholder="write for Naeem"
               ></textarea>
             </div>
