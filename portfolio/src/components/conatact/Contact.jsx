@@ -48,8 +48,8 @@ const Contact = () => {
             </div>
             <div className="contact__card">
               <i className="bx bxl-linkedin contact__carrd-icon"></i>
-              <h3 className="contact__card-title">Linkd In</h3>
-              <span className="contact__card-data">LinkdinUser</span>
+              <h3 className="contact__card-title">LinkedIn</h3>
+              <span className="contact__card-data">Naeem</span>
               <a
                 href="https://www.linkedin.com/in/naeem-khandakar-845240216/"
                 className="contact__button"

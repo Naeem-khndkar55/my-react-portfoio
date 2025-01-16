@@ -141,7 +141,7 @@ const Qualifications = () => {
               <div>
                 <h3 className="qualifications__title">Programming Contest</h3>
                 <span className="qualifications__subtitle">
-                  Online and Onsite contest perticipation
+                  Online & Onsite contest perticipation
                 </span>
                 <div className="qualifications__calendar">
                   <i className="uil uil-calendar-alt">2022-Present</i>
